@@ -1,5 +1,5 @@
 {
-    "name": "experimentpackage/add-a-to-b",
+    "name": "experimentpackage/addatob",
     "description": "Package which to add a and b",
     "type": "library",
     "license": "MIT",
