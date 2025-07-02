@@ -1,11 +1,11 @@
 {
-    "name": "experimentpackage/addatob",
+    "name": "anastasiya9323/summator",
     "description": "Package which to add a and b",
     "type": "library",
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Experimentpackage\\AddAToB\\": "src/"
+            "Anastasiya9323\\Summator\\": "src/"
         }
     },
     "authors": [

@@ -1,6 +1,6 @@
 <?php
 
-namespace Experimentpackage;
+namespace Summator;
 
 class AddAToB
 {
