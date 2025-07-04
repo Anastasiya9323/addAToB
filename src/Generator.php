@@ -28,11 +28,11 @@ class Generator
     {
         $this->dirGenerator->dirGenerate($pathToSave);
 
-        if ($typeOfSitemap == "csv") {
+        if ($typeOfSitemap == 'csv') {
             $this->csvGenerator->generateSitemap($inputArray, $pathToSave);
-        } elseif ($typeOfSitemap == "json") {
+        } elseif ($typeOfSitemap == 'json') {
             $this->jsonGenerator->generateSitemap($inputArray, $pathToSave);
-        } elseif ($typeOfSitemap == "xml") {
+        } elseif ($typeOfSitemap == 'xml') {
             $this->xmlGenerator->generateSitemap($inputArray, $pathToSave);
         } else {
         }
