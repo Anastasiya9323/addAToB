@@ -6,8 +6,8 @@ class DirGenerator
 {
     public function dirGenerate($pathToSave)
     {
-        if (is_dir(substr($pathToSave, 0, strpos($pathToSave, '/') + 1)) == false) {
-            mkdir(substr($pathToSave, 0, strpos($pathToSave, '/') + 1), 0, true);
+        if (is_dir(str_replace(substr($pathToSave, -strpos(strrev($pathToSave), '/')), '', $pathToSave)) == false) {
+            mkdir(str_replace(substr($pathToSave, -strpos(strrev($pathToSave), '/')), '', $pathToSave), 0777, true);
         }
     }
 }

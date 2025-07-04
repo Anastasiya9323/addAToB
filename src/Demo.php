@@ -4,8 +4,6 @@ require_once '../vendor/autoload.php';
 
 use SitemapGenerator\Generator;
 
-$generator = new Generator();
-
 $pages = [
     [
         'loc' => 'https://site.ru',
@@ -51,6 +49,5 @@ $pages = [
     ]
 ];
 
-$generator->generate($pages, 'xml', 'demo/filexml.xml');
-
-var_dump('JABA');
+$generator = new Generator();
+$generator->generate($pages, 'xml', '../demo/filexml.xml');
