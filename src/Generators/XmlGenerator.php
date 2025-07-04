@@ -1,5 +1,4 @@
 <?php
-
 namespace SitemapGenerator\Generators;
 
 use SitemapGenerator\Interfaces\GenerateSitemapInterface;
