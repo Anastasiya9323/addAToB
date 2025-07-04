@@ -1,6 +1,6 @@
 <?php
 
-namespace Summator;
+namespace SitemapGenerator;
 
 class AddAToB
 {

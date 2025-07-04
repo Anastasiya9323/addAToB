@@ -1,18 +1,20 @@
 {
-    "name": "anastasiya9323/summator",
-    "description": "Package which to add a and b",
+    "name": "anastasiya9323/sitemap-generator",
+    "description": "The site map generator in CSV, JSON or XML formats",
     "type": "library",
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Summator\\": "src/"
+            "SitemapGenerator\\": "src/"
         }
     },
     "authors": [
         {
-            "name": "Anastasiya",
+            "name": "Anastasiya Sadovnichaya",
             "email": "nastya.9323@mail.ru"
         }
     ],
-    "require": {}
+    "require": {
+        "php": ">=8.2"
+    }
 }
