@@ -2,9 +2,9 @@
 
 namespace SitemapGenerator;
 
-use SitemapGenerator\CsvGenerator;
-use SitemapGenerator\JsonGenerator;
-use SitemapGenerator\XmlGenerator;
+use SitemapGenerator\Generators\CsvGenerator;
+use SitemapGenerator\Generators\JsonGenerator;
+use SitemapGenerator\Generators\XmlGenerator;
 use SitemapGenerator\DirGenerator;
 
 // по сути мы вызываем его а внутри уже указываем на то, какой тип генерации вызывать

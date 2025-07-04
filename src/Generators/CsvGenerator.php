@@ -1,7 +1,6 @@
 <?php
 
-// TODO должен реализовать интерфейс
-namespace SitemapGenerator;
+namespace SitemapGenerator\Generators;
 
 use SitemapGenerator\Interfaces\GenerateSitemapInterface;
 

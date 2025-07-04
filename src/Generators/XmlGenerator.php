@@ -1,6 +1,6 @@
 <?php
 
-namespace SitemapGenerator;
+namespace SitemapGenerator\Generators;
 
 use SitemapGenerator\Interfaces\GenerateSitemapInterface;
 use XMLWriter;
