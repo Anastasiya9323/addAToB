@@ -1,6 +1,6 @@
 {
     "name": "anastasiya9323/sitemap-generator",
-    "description": "The site map generator in CSV, JSON or XML formats",
+    "description": "The sitemap generator in CSV, JSON or XML formats",
     "type": "library",
     "license": "MIT",
     "autoload": {
